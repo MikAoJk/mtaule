@@ -1,0 +1,44 @@
+.content {
+    max-width: 980px;
+    margin: auto
+}
+
+.top, bottom {
+    position: fixed;
+    width: 100%;
+    z-index: 1
+}
+
+.bar {
+    width: 100%;
+    overflow: hidden
+}
+
+.bar .bar-item {
+    padding: 8px 16px;
+    float: left;
+    background-color: inherit;
+    color: inherit;
+    width: auto;
+    border: none;
+    outline: none;
+    display: block
+}
+
+.center .bar {
+    display: inline-block;
+    width: auto
+}
+
+.top {
+    top: 0
+}
+
+.bottom {
+    bottom: 0
+}
+
+.black, .hover-black:hover {
+    color: #fff !important;
+    background-color: #000 !important
+}
